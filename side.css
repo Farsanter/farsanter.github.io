@@ -4,7 +4,8 @@
 }
 body {
     margin: 0px;
-    background-color: #7c8a00;
+    background-color: #9c5402;
+    overflow-y: hidden;
 }
 
 header {
@@ -16,22 +17,32 @@ header {
     top: 50%;
     position: relative;
 }
-img {
-    height: 30%;
-    width: 30%;
+img.inht {
+    height: 400px;
+    width: 310px;
     float: right;
+    margin: 10px;
+}
+img.inwd {
+    height: 320px;
+    width: 480px;
+    float: right;
+    margin: 10px;
+
 }
 div.main {
     width: 90%;
-    background-color: #a7b902;
-    height: 905px;
+    background-color: #ca6d02;
+    height: 910px;
     position: relative; 
     left: 5%;
 }
 div.info {
     margin-left: 2%;
     margin-right: 2%;
-    border: 1px solid black;
     height: 100%;
+}
+h1 {
+    text-align: center;
 }
   
