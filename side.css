@@ -12,7 +12,7 @@ header {
     background-color:black;
     height: 60px;
 }
-.header_text {
+div.header_text {
     color: white;
     top: 10%;
     position: relative;
